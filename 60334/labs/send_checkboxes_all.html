@@ -1,0 +1,69 @@
+<html>
+
+<head>
+    
+<script>
+function check_them_all(){
+var colors = document.forms[0];
+var i;
+
+if (colors[0].checked) 
+for (i = 0; i < colors.length; i++) 
+  colors[i].checked=true;
+
+else
+for (i = 0; i < colors.length; i++) 
+  colors[i].checked=false;
+}
+
+            
+        
+    
+    
+    
+</script>    
+
+
+</head>
+
+
+<body>
+    
+    
+    
+    <form method= "get" action= "rec_chexbox.php">
+        
+        <label for="all">
+            
+            <input type ="checkbox" name="all" value="all" onclick="check_them_all()">
+            All<br>
+            
+        </label>
+        
+        <label for="interests">
+    <input type="checkbox" name="colors[]" value="red">Red
+        <br> </label>
+    
+        <label for="interests">
+    <input type="checkbox" name="colors[]" value="blue">Blue
+        <br> </label>
+    
+    <input type="submit" value="submit">
+        
+        
+        
+    </form>    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+</body>
+</html>

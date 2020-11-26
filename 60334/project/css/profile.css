@@ -1,0 +1,160 @@
+body{
+    
+    /*background-color: linear-gradient(rgb(26, 198, 255), rgb(153, 230, 255));*/
+    background-color: rgb(26, 198, 255);
+}
+
+
+#taskbar{ /* taskbar*/
+    
+    background-color: #0052cc;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+    
+    
+}
+
+
+header{
+    
+    font: arial;
+    color: #cceeff;
+    font-size:1.5em;
+    
+    
+    
+}
+
+.button {
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position:absolute;
+     top:24;
+     right:10;
+}
+
+
+.button2 {
+  background-color: #008CBA; 
+  color: black; 
+  border: 2px solid #008CBA;
+  
+}
+
+.button2:hover {
+  background-color: white;
+  color: black;
+}
+
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table td {
+    border: 2px solid #333;
+}
+
+
+
+
+thread{
+    
+    font-family: arial;
+    
+    background-color: #ccddee;
+
+    
+}
+
+
+
+tfoot{
+    
+    background-color:#ddccee;
+    
+    font-family: times, serif;
+    
+    font-size:0.9em;
+    
+    font-style: italic;
+    
+}
+
+
+
+tr:hover{
+    
+    color: white;
+    
+    background-color:#722750;
+    
+    
+}
+
+
+
+
+
+
+th{
+    background-color: #ccddee;
+    border-collapse: collapse;
+    border: 1px solid #333;
+    
+}
+
+
+
+
+
+li {
+  
+  display:inline-block;
+  text-align: center;
+}
+
+
+
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+
+li a{
+    
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+

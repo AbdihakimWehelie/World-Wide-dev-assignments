@@ -1,0 +1,62 @@
+table {
+    border-collapse: collapse;
+}
+
+table td {
+    border: 2px solid #333;
+}
+
+
+
+th{
+    background-color: #ccddee;
+    border-collapse: collapse;
+    border: 1px solid #333;
+    
+}
+
+
+
+
+
+#title{
+    
+    font-family:arial;
+    
+    
+}
+
+
+thread{
+    
+    font-family: arial;
+    
+    background-color: #ccddee;
+
+    
+}
+
+
+
+tfoot{
+    
+    background-color:#ddccee;
+    
+    font-family: times, serif;
+    
+    font-size:0.9em;
+    
+    font-style: italic;
+    
+}
+
+
+
+tr:hover{
+    
+    color: white;
+    
+    background-color:#722750;
+    
+    
+}

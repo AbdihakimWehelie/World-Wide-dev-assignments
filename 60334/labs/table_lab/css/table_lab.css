@@ -1,0 +1,57 @@
+table{
+    
+    border: soild 3px black;
+    border-collapse: collapse;
+    
+}
+
+
+th, td{
+    
+    border: soild 1px black;
+    
+}
+
+
+
+#title{
+    
+    font-family:arial;
+    
+    
+}
+
+
+thread{
+    
+    font-family: arial;
+    
+    background-color: #ccddee;
+
+    
+}
+
+
+
+tfoot{
+    
+    background-color:#ddccee;
+    
+    font-family: times, serif;
+    
+    font-size:0.9em;
+    
+    font-style: italic;
+    
+}
+
+
+
+tr:hover{
+    
+    color: white;
+    
+    background-color:#722750;
+    
+    
+}

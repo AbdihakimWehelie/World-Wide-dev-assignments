@@ -1,0 +1,259 @@
+body{
+    
+    /*background-color: linear-gradient(rgb(26, 198, 255), rgb(153, 230, 255));*/
+    background-color: rgb(26, 198, 255);
+}
+
+
+
+ /* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 60px;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+  position: absolute;
+  right: 25px;
+  top: 0;
+  color: #000;
+  font-size: 35px;
+  font-weight: bold;
+}
+
+/* Close button on hover */
+.close:hover,
+.close:focus {
+  color: red;
+  cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+} 
+
+
+#taskbar{ /* taskbar*/
+    
+    background-color: #0052cc;
+    list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+    
+    
+}
+
+
+header{
+    
+    font: arial;
+    color: #cceeff;
+    font-size:1.5em;
+    
+    
+    
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position:absolute;
+     top:20;
+     right:8;
+}
+
+
+.button2 {
+  background-color: #008CBA; 
+  color: black; 
+  border: 2px solid #008CBA;
+  
+}
+
+.button2:hover {
+  background-color: white;
+  color: black;
+}
+
+
+table {
+    border-collapse: collapse;
+    background-color: white;
+}
+
+table td {
+    border: 2px solid #333;
+}
+
+
+
+
+thread{
+    
+    font-family: arial;
+    
+    background-color: #ccddee;
+
+    
+}
+
+
+
+tfoot{
+    
+    background-color:#ddccee;
+    
+    font-family: times, serif;
+    
+    font-size:0.9em;
+    
+    font-style: italic;
+    
+}
+
+
+
+tr:hover{
+    
+    color: white;
+    
+    background-color:#722750;
+    
+    
+}
+
+
+
+
+
+
+th{
+    background-color: #ccddee;
+    border-collapse: collapse;
+    border: 1px solid #333;
+    
+}
+
+
+
+
+
+li {
+  
+  display:inline-block;
+  text-align: center;
+}
+
+
+
+
+li a:hover {
+  background-color: #111;
+}
+
+
+
+
+
+
+
+li a{
+    
+    display: inline-block;
+    text-align: center;
+    padding: 14px 16px;
+    color: white;
+    
+}
+
+
+
+.dropbtn {
+ background-color: #008CBA; 
+  color: black; 
+  border: 2px solid #008CBA;
+  padding: 16px;
+  font-size: 16px;
+  /*border: none;*/
+  cursor: pointer;
+  
+
+ 
+}
+
+.dropdown {
+  position:absolute;
+     top:20;
+     right:8;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position:absolute;
+     top:20;
+     right:8;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}

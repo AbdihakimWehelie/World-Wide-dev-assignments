@@ -1,0 +1,110 @@
+<html>
+<body> 
+
+<head>
+<script src="../js/sectionb.js"></script>
+</head>
+
+<button onclick= window.open("http://wehelie.myweb.cs.uwindsor.ca/60334/assignments/assignment2/html/successfully_submitted.html");>Submit</button><br><br>
+<!-- Causes the button to open a page when the form is filed out-->
+
+<label for="fname">First name:</label>   
+<input type="text" required id="fname" name="fname"><br><br>
+
+
+<label for="lname">Last name:</label>   
+<input  type="text" required id="lname" name="lname"><br><br> 
+
+
+<label for="Email">Email:</label>   
+<input  type="text" required id="Email" name="Email"><br><br>
+
+<!--each radio button has a coressponding function when that option is selected-->
+<p><input type="radio" name="list" value="yes" id="Yes" onclick="browse()"/>
+<label for="Yes">Yes</label>
+
+<input type="radio" name="list" value="no" id="No" onclick="remove()"/>
+<label for="No">No</label><br><br>
+
+
+<label for="myfile"></label>
+<input type="file" id="myfile" name="myfile"><br><br>
+
+
+
+</p>
+
+
+
+</body>
+</html>
+
+<!--
+<html>
+<body> 
+
+<head>
+<script>
+function browse(){
+
+
+
+document.getElementById("myfile").style.visibility = "visable";  
+alert(1);    
+        
+        
+     
+        
+}
+
+
+
+function submit(){
+    
+   
+    
+    
+}
+
+
+function remove(){
+    document.getElementById("myfile").style.visibility = "hidden";
+    alert(2);    
+}
+
+
+</script>
+</head>
+
+<button onclick="submit()">Submit</button><br><br>
+
+
+<label for="fname">First name:</label>   
+<input type="text" id="fname" name="fname"><br><br>
+
+
+<label for="lname">Last name:</label>   
+<input type="text" id="lname" name="lname"><br><br> 
+
+
+<label for="Email">Email:</label>   
+<input type="text" id="Email" name="Email"><br><br>
+
+<p><input type="radio" name="list" value="yes" id="Yes" onclick="browse()"/>
+<label for="Yes">Yes</label>
+
+<input type="radio" name="list" value="no" id="No" onclick="remove()"/>
+<label for="No">No</label><br><br>
+
+
+
+<label for="myfile"></label>
+<input type="file" id="myfile" name="myfile"><br><br>
+
+
+
+</p>
+
+</body>
+</html>
+-->
